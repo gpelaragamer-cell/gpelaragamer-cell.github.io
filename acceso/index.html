@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acceso anticipado – LaraLabs Studio</title>
+<meta name="description" content="Prueba gratis los juegos de LaraLabs Studio antes que nadie en Google Play.">
+<style>
+  :root { --ink: #EAE8FF; --dim: #9C98C9; --cyan: #3DF9FF; --pink: #FF3DCB; --gold: #FFD84A; --panel: #120F33; --line: #2b2670; --bg: #070616; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.55; }
+  main { max-width: 560px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; gap: 16px; align-items: center; margin-bottom: 20px; }
+  header img { width: 84px; height: 84px; border-radius: 18px; flex: none; }
+  h1 { margin: 0; font-size: 1.6rem; color: var(--cyan); line-height: 1.2; }
+  .tag { display: inline-block; margin-top: 6px; padding: 2px 10px; border-radius: 99px; background: var(--gold); color: #1a1300; font-weight: 700; font-size: .8rem; letter-spacing: .04em; }
+  p.lead { margin: 0 0 20px; color: var(--dim); }
+  ol { list-style: none; padding: 0; margin: 0; counter-reset: s; }
+  li { counter-increment: s; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 16px 18px 60px; margin-bottom: 14px; position: relative; }
+  li::before { content: counter(s); position: absolute; left: 16px; top: 16px; width: 30px; height: 30px; border-radius: 50%; background: var(--pink); color: #fff; font-weight: 800; display: grid; place-items: center; }
+  li h2 { margin: 2px 0 4px; font-size: 1.05rem; }
+  li p { margin: 0 0 12px; color: var(--dim); font-size: .95rem; }
+  .btn { display: block; text-align: center; text-decoration: none; padding: 13px 16px; border-radius: 12px; background: var(--cyan); color: #061018; font-weight: 800; }
+  .btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .note { background: transparent; border: 1px dashed var(--line); border-radius: 12px; padding: 14px 16px; color: var(--dim); font-size: .9rem; }
+  .note strong { color: var(--ink); }
+  footer { margin-top: 28px; text-align: center; color: var(--dim); font-size: .85rem; }
+  footer a { color: var(--cyan); }
+  .en { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--dim); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="starcrash-icon.png" alt="Icono de ADI Star Crash">
+    <div>
+      <h1>ADI Star Crash</h1>
+      <span class="tag">ACCESO ANTICIPADO · GRATIS</span>
+    </div>
+  </header>
+  <p class="lead">Juega antes que nadie el nuevo arcade espacial de LaraLabs Studio. Solo necesitas un celular Android y tu cuenta de Google (la misma de Play Store).</p>
+
+  <ol>
+    <li>
+      <h2>Únete al grupo de testers</h2>
+      <p>Entra con tu cuenta de Google y toca <strong>"Unirse al grupo"</strong>.</p>
+      <a class="btn" href="https://groups.google.com/g/laralabs-testers">Unirme al grupo</a>
+    </li>
+    <li>
+      <h2>Acepta la invitación de prueba</h2>
+      <p>Toca <strong>"Convertirse en tester"</strong>. Si dice que no tienes acceso, espera unos minutos y vuelve a abrirlo.</p>
+      <a class="btn" href="https://play.google.com/apps/testing/com.adigames.starcrash">Convertirme en tester</a>
+    </li>
+    <li>
+      <h2>Descarga el juego</h2>
+      <p>Instálalo desde Google Play como cualquier otra app.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.adigames.starcrash">Abrir en Google Play</a>
+    </li>
+  </ol>
+
+  <div class="note"><strong>¿Nos ayudas?</strong> Déjalo instalado y juega de vez en cuando durante 2 semanas. Así Google nos deja publicarlo para todos. Si encuentras un error, escríbenos a <a href="mailto:gpelaragamer@gmail.com" style="color:var(--cyan)">gpelaragamer@gmail.com</a>.</div>
+
+  <p class="en" lang="en"><strong>English:</strong> 1) Join the tester group with your Google account, 2) tap "Become a tester", 3) install from Google Play. Free early access to ADI Star Crash by LaraLabs Studio.</p>
+
+  <footer>LaraLabs Studio · <a href="../starcrash/privacidad.html">Privacidad</a></footer>
+</main>
+</body>
+</html>
